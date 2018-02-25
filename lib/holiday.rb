@@ -69,7 +69,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do | holiday_name, supply |
       if supply.include?("BBQ")
         array = []
-        array << "#{holiday_name}:"
+        array << "#{holiday_name[0]}:"
       end
     end
   end
